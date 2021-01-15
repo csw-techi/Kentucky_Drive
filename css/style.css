@@ -1,0 +1,19 @@
+
+body, html {
+    height: 100%;
+}
+.title {
+    color:blue;
+}
+
+.mk6_gti_downtown_louisville, .louisville_vw_meet{
+    /* Set a specific height */
+    height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* @media (min-width: 560px) */
