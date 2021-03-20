@@ -348,3 +348,13 @@
     display: none;
   }
   
+   /**
+   * Remove defualt list styles, masrgins and padding.
+   */
+
+   ol,
+   ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   }

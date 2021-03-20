@@ -1,0 +1,128 @@
+.bio {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 80%;
+    text-align: left;
+}
+
+.route {
+    width: 80%;
+    text-align: left;
+    margin-left: 80px;
+    /* text-align: center; */
+
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    /* padding: 5% 5%; */
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.column {
+    /* display: block;   */
+    flex: 50%;
+    padding: 10px;
+  }
+
+.main-nav {
+	margin-bottom: 30px;
+}
+
+.main-footer {
+    margin-top: 80px;
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("../img/IMG_0649.jpeg");
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    padding-top: 0px;
+    font-size: calc(2.1vw + 2.1vh + 2.1vmin);
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+ß}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(118, 118, 118);
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    font-size: calc(.3vw + .1.5vh + 3vmin);  
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+@media screen and (max-width: 1300px)  {
+    .column {    
+    flex: 100%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    main {
+    margin: 10px 10px;
+    padding: 20px 20px;
+    /* display: center; */
+    /* text-align: center; */
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .bio {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}    
