@@ -85,7 +85,7 @@ img {
 }
 
 .nav {
-        width: 200px; /* Set a width if you like */
+        width: 200px;
       }
 
 
@@ -105,13 +105,8 @@ ul {
     overflow: hidden;
     background-color: rgb(118, 118, 118);
 }
-
-/* li {
-    float: left;
-} */
   
 li a {
-    /* font-size: calc(.3vw + .1.5vh + 3vmin);   */
     font-size: 1.2em;
     display: block;
     color: white;
@@ -138,10 +133,6 @@ li a:hover {
     .button {
         font-size: 1.2em;
         margin-bottom: 10px;
-        /* margin: 0;
-        position: relative;
-        left: 110%;  
-        transform: translate(-170%, -170%); */
     } 
     
     a {
@@ -191,10 +182,6 @@ li a:hover {
     .button {
         font-size: 1.5em;
         margin-bottom: 10px;
-        /* margin: 0;
-        position: relative;
-        left: 110%;  
-        transform: translate(-190%, -190%); */
     }
 }
 
@@ -202,11 +189,6 @@ li a:hover {
     .button {
         font-size: 1.3em;
         margin-bottom: 15px;
-        /* margin: 0;
-        position: relative;
-        left: 110%;  
-        transform: translate(-165%, -165%);
-        font-size: 1.2em; */
     }   
     .flexparent {
         display: flex;
