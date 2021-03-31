@@ -1,3 +1,5 @@
+/*==========  Hero Image  ==========*/
+
 .hero-image {
     background-image: url("../img/IMG_0649.jpeg");
     height: 30%;
@@ -18,20 +20,59 @@
     color: white;
 }
 
-body, html {
-    height: 100%;
-}
-  
+/*==========  Navigation  ==========*/
+
 .main-nav {
 	font-size: 16px;
     margin-bottom: 10px;
 }
 
+body, html {
+    height: 100%;
+}
+
+.nav {
+    width: 200px;
+}
+
+
+.nav a {
+    background-color: #eee;
+    color: black;
+    display: block; 
+    padding: 12px;
+    text-decoration: none; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(118, 118, 118);
+}
+
+li a {
+    font-size: 1.4em;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    /* background-color: #111; */
+    color: black;
+}
+
+/*==========  Body  ==========*/
+
 .bio, .routed, .glink {
     font-size: 17px;
     font-size: 2.6vh;
     padding: 0.01em 20px;
-   }
+}
 
 .routename {
     padding: 0.01em 20px;
@@ -77,6 +118,8 @@ img {
     transform: translateY(4px);  
 }
 
+/*==========  Footer  ==========*/
+
 .main-footer {
     margin-top: 35px;
 	text-align: center;
@@ -84,43 +127,7 @@ img {
 	background: #d9e4ea;
 }
 
-.nav {
-        width: 200px;
-      }
-
-
-.nav a {
-    background-color: #eee;
-    color: black;
-    display: block; 
-    padding: 12px;
-    text-decoration: none; 
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(118, 118, 118);
-}
-  
-li a {
-    font-size: 1.2em;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px 20px;
-    text-decoration: none;
-}
-  
-li a:hover {
-    background-color: #111;
-}
-
 /*==========  Mobile First Method  ==========*/
-
 
 /* Small Devices, Tablets */
 
@@ -130,50 +137,60 @@ li a:hover {
 }
 
 @media only screen and (min-width : 768px) {
-    .button {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    } 
     
-    a {
-        font-size: .6em;
+    .hero-title {
+        font-size: 8vw;
+        padding-top: 40px;
+        margin-top: 20px;
     }
-
+    
     #nav {
         display: flex;
         justify-content: center;
     }
 
-    li {
-        float: left;
-    }
-
-    img {
-        margin-bottom: 0px;
-    }  
-    .routed {
-        margin-top: 0px;
-    }
     .main-nav {
         font-size: 25px;
         margin-bottom: 20px;
     }
+
+    li a:hover {
+        background-color: #111;
+        color: white;
+        border-radius: 15px;
+    }
+
+    li a {
+        font-size: 1.3em;
+    }
+
+    .button {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    } 
+
+    img {
+        margin-bottom: 0px;
+    } 
+
+    .routed {
+        margin-top: 0px;
+    }
+    
     .bio, .routed, .glink, .routename {
         padding: 0.01em 40px;
     }
+
     .flexparent {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .flexchild {
         flex: 1 100%;
     }
-    .hero-title {
-        font-size: 7vw;
-        padding-top: 40px;
-        margin-top: 20px;
-    }
+    
 }
 
 /* Large Devices, Wide Screens */
@@ -186,23 +203,26 @@ li a:hover {
 }
 
 @media only screen and (min-width : 1200px) {
+
+    .hero-title {
+        font-size: 7vw;
+        padding-top: 40px;
+        margin-top: 20px;
+    }
+    
     .button {
         font-size: 1.3em;
         margin-bottom: 15px;
-    }   
+    }  
+
     .flexparent {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .flexchild {
         flex: 1 50%;
         margin-top: 1.2rem;
     }
-    .hero-title {
-        font-size: 5vw;
-        padding-top: 40px;
-        margin-top: 20px;
-    }
 }
-
