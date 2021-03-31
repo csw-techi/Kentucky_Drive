@@ -15,15 +15,15 @@
     padding-top: 2px;
     font-weight: bold;
     font-size: 11vw;
-    padding-top: 40px;
-    margin-top: 20px;
+    padding-top: 30px;
+    margin-top: 0px;
     color: white;
 }
 
 /*==========  Navigation  ==========*/
 
 .main-nav {
-	font-size: 16px;
+	font-size: 0.9em;
     margin-bottom: 10px;
 }
 
@@ -139,9 +139,9 @@ img {
 @media only screen and (min-width : 768px) {
     
     .hero-title {
-        font-size: 8vw;
-        padding-top: 40px;
-        margin-top: 20px;
+        font-size: 10vw;
+        padding-top: 60px;
+        margin-top: 0px;
     }
     
     #nav {
@@ -150,7 +150,7 @@ img {
     }
 
     .main-nav {
-        font-size: 25px;
+        font-size: 1.3em;
         margin-bottom: 20px;
     }
 
@@ -205,11 +205,16 @@ img {
 @media only screen and (min-width : 1200px) {
 
     .hero-title {
-        font-size: 7vw;
-        padding-top: 40px;
+        font-size: 6em;
+        padding-top: 30px;
         margin-top: 20px;
     }
     
+    .main-nav {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
     .button {
         font-size: 1.3em;
         margin-bottom: 15px;
